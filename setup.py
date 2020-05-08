@@ -22,7 +22,7 @@ def Main():
 			print(logo)
 			print(info)
 			if token == "":
-				print(Fore.GREEN+"Введите полученный токен:"+Style.RESET_ALL)
+				print(Fore.GREEN+"token:"+Style.RESET_ALL)
 				token = input(Fore.BLUE+"VK-Covid-Status > "+Style.RESET_ALL)
 				print(Fore.GREEN+"Сохранить данный токен для дальнейшего использования? \n"+Style.RESET_ALL+"(Токен хранится у Вас в файле covid.py и никуда не передается)\n"+Fore.GREEN+"(y/n)"+Style.RESET_ALL)
 				choice = input(Fore.BLUE+"VK-Covid-Status > "+Style.RESET_ALL)
